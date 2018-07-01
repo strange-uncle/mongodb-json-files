@@ -1,20 +1,20 @@
 #Need replace the file & dir to your value
 
-sudo mongoimport -d mongdosamples -c books --file /home/wkj/Git-repo/mongodb-json-files/datasets/catalog.books.json --type json
-sudo mongoimport -d mongdosamples -c city_inspections --file /home/wkj/Git-repo/mongodb-json-files/datasets/city_inspections.json --type json
-sudo mongoimport -d mongdosamples -c companies --file /home/wkj/Git-repo/mongodb-json-files/datasets/companies.json --type json
-sudo mongoimport -d mongdosamples -c countries --file /home/wkj/Git-repo/mongodb-json-files/datasets/countries.json --type json
-sudo mongoimport -d mongdosamples -c country --file /home/wkj/Git-repo/mongodb-json-files/datasets/country.json --type json
-sudo mongoimport -d mongdosamples -c covers --file /home/wkj/Git-repo/mongodb-json-files/datasets/covers.json --type json
-sudo mongoimport -d mongdosamples -c grades --file /home/wkj/Git-repo/mongodb-json-files/datasets/grades.json --type json
-sudo mongoimport -d mongdosamples -c products --file /home/wkj/Git-repo/mongodb-json-files/datasets/products.json --type json
-sudo mongoimport -d mongdosamples -c profiles --file /home/wkj/Git-repo/mongodb-json-files/datasets/profiles.json --type json
-sudo mongoimport -d mongdosamples -c restaurant --file /home/wkj/Git-repo/mongodb-json-files/datasets/restaurant.json --type json
-sudo mongoimport -d mongdosamples -c students --file /home/wkj/Git-repo/mongodb-json-files/datasets/students.json --type json
-sudo mongoimport -d mongdosamples -c palbum_albums --file /home/wkj/Git-repo/mongodb-json-files/datasets/palbum/albums.json --type json
-sudo mongoimport -d mongdosamples -c palbum_images --file /home/wkj/Git-repo/mongodb-json-files/datasets/palbum/images.json --type json
-sudo mongorestore --drop -d mongdosamples_twitter --dir /home/wkj/Git-repo/mongodb-json-files/datasets/tweets/dump/twitter/
-sudo mongorestore --drop -d mongdosamples_people --dir /home/wkj/Git-repo/mongodb-json-files/datasets/people-bson/
+sudo mongoimport -d mongosamples -c books --file /home/wkj/Git-repo/mongodb-json-files/datasets/catalog.books.json --type json
+sudo mongoimport -d mongosamples -c city_inspections --file /home/wkj/Git-repo/mongodb-json-files/datasets/city_inspections.json --type json
+sudo mongoimport -d mongosamples -c companies --file /home/wkj/Git-repo/mongodb-json-files/datasets/companies.json --type json
+sudo mongoimport -d mongosamples -c countries --file /home/wkj/Git-repo/mongodb-json-files/datasets/countries.json --type json
+sudo mongoimport -d mongosamples -c country --file /home/wkj/Git-repo/mongodb-json-files/datasets/country.json --type json
+sudo mongoimport -d mongosamples -c covers --file /home/wkj/Git-repo/mongodb-json-files/datasets/covers.json --type json
+sudo mongoimport -d mongosamples -c grades --file /home/wkj/Git-repo/mongodb-json-files/datasets/grades.json --type json
+sudo mongoimport -d mongosamples -c products --file /home/wkj/Git-repo/mongodb-json-files/datasets/products.json --type json
+sudo mongoimport -d mongosamples -c profiles --file /home/wkj/Git-repo/mongodb-json-files/datasets/profiles.json --type json
+sudo mongoimport -d mongosamples -c restaurant --file /home/wkj/Git-repo/mongodb-json-files/datasets/restaurant.json --type json
+sudo mongoimport -d mongosamples -c students --file /home/wkj/Git-repo/mongodb-json-files/datasets/students.json --type json
+sudo mongoimport -d mongosamples -c palbum_albums --file /home/wkj/Git-repo/mongodb-json-files/datasets/palbum/albums.json --type json
+sudo mongoimport -d mongosamples -c palbum_images --file /home/wkj/Git-repo/mongodb-json-files/datasets/palbum/images.json --type json
+sudo mongorestore --drop -d mongosamples_twitter --dir /home/wkj/Git-repo/mongodb-json-files/datasets/tweets/dump/twitter/
+sudo mongorestore --drop -d mongosamples_people --dir /home/wkj/Git-repo/mongodb-json-files/datasets/people-bson/
 
 
 
